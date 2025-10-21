@@ -1,0 +1,16 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.venv/
+
+# Lock and build files
+.uv/
+uv.lock
+
+# Dotenv
+.env
+
+# OS files
+.DS_Store
