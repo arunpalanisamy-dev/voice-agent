@@ -1,27 +1,31 @@
-# 🎙️ Voice Agent: Streamlit + Google STT + ElevenLabs TTS
+# 🗣️ Multilingual Voice Agent (RAG-Ready)
 
-A simple web-based voice assistant built using:
+This is a **multilingual voice assistant** that listens to your voice input, transcribes it using **Google Speech Recognition**, and responds using **ElevenLabs Text-to-Speech (TTS)** with natural-sounding audio.
 
-- 🎤 Google Speech-to-Text (STT)
-- 🔊 ElevenLabs Text-to-Speech (TTS)
-- 🧱 Streamlit for the web interface
-- ⚡️ [uv](https://github.com/astral-sh/uv) as the Python package manager (fast & modern)
-
----
-
-## 📦 Features
-
-- Speak directly into your mic
-- Google STT transcribes your voice
-- ElevenLabs TTS replies with natural speech
-- Stream the voice output or download it as MP3
+Built with ❤️ using:
+- 🧠 **Google Speech Recognition** (STT)
+- 🔊 **ElevenLabs API** (TTS - using "Sarah")
+- 🌍 Supports **English**, **Hindi**, **Tamil**, **French**
+- 💻 **Streamlit** web interface
+- ⚙️ (Optional) Auto-translate responses using Google Translate
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Features
+
+- 🎤 Voice input from microphone
+- 📄 Real-time speech-to-text
+- 🗣️ Text-to-speech with realistic voice (Sarah)
+- 🌐 Multilingual support via ElevenLabs `multilingual_v1`
+- 📁 Download generated audio
+- 🧠 RAG-ready architecture (coming soon...)
+
+---
+
+## 📦 Installation
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/arunpalanisamy-dev/voice-agent.git
+git clone https://github.com/your-username/voice-agent.git
 cd voice-agent
