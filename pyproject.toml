@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "googletrans==4.0.0rc1",
     "pyaudio>=0.2.14",
     "speechrecognition>=3.14.3",
     "streamlit>=1.50.0",
